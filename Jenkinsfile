@@ -55,6 +55,7 @@ pipeline {
 //                 ok "Yes."
 //             }
             steps {
+                sh '/home/ubuntu/.nvm/versions/node/v16.15.1/bin/npm install'
                 sh 'npm start'
             }
         }
