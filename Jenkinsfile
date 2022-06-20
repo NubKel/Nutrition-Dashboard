@@ -50,10 +50,10 @@ pipeline {
 
 
         stage('Starting the service...') {
-            input {
-                message "The process might take a while, should we continue?"
-                ok "Yes."
-            }
+//             input {
+//                 message "The process might take a while, should we continue?"
+//                 ok "Yes."
+//             }
             steps {
                 sh 'npm start'
             }
