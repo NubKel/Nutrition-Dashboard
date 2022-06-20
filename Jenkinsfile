@@ -29,7 +29,7 @@ pipeline {
 
         stage('Example credential stage') {
             environment {
-                SERVICE_CREDS = credentials('83243253-92af-4166-9985-308b47c6bdc1')
+                SERVICE_CREDS = credentials('TEMP_SECRET')
             }
             steps {
                 sh 'echo "The secret is $SERVICE_CREDS"'
