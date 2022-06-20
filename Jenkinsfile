@@ -56,7 +56,7 @@ pipeline {
 //             }
             steps {
                 sh '/home/ubuntu/.nvm/versions/node/v16.15.1/bin/npm start'
-//                 sh 'npm start'
+//                 sh 'yarn start'
             }
         }
     }
