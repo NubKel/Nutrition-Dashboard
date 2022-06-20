@@ -55,7 +55,7 @@ pipeline {
 //                 ok "Yes."
 //             }
             steps {
-                sh 'npm start'
+                sh 'sudo npm start'
             }
         }
     }
