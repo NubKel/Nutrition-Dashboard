@@ -58,11 +58,11 @@ pipeline {
 //             }
             steps {
                 sh 'whoami'
-                sh '/home/ubuntu/.nvm/versions/node/v16.15.1/bin/npm start'
+//                 sh '/home/ubuntu/.nvm/versions/node/v16.15.1/bin/npm start'
 //                 sh 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash'
 //                 sh 'nvm install 14.4.0'
-//                 sh 'npm install'
-//                 sh 'npm start'
+                sh 'npm install'
+                sh 'npm start'
             }
         }
     }
