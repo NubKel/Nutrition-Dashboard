@@ -62,7 +62,7 @@ pipeline {
 //                 sh 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash'
 //                 sh 'nvm install 14.4.0'
                 sh 'npm install'
-                sh 'npm start'
+                sh 'sudo npm start'
             }
         }
     }
