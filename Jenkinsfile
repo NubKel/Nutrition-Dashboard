@@ -33,6 +33,7 @@ pipeline {
             }
             steps {
                 sh 'echo "The secret is $SERVICE_CREDS"'
+                sh 'ls -al'
             }
         }
         
