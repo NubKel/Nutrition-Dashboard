@@ -66,6 +66,7 @@ pipeline {
 //                 sh 'nvm install 14.4.0'
                 sh 'npm install'
                 sh 'sudo npm start'
+                cleanWs()
             }
         }
     }
